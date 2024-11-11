@@ -26,6 +26,8 @@ const OauthService = {
 				return "fa-solid fa-cloud";
 			case "keycloak":
 				return "fa-solid fa-key";
+			case "oidc":
+				return "fa-solid fa-openid";
 		}
 	},
 

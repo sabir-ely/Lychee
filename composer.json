@@ -32,6 +32,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/LycheeOrg/verify"
+        },
+        {
+            "type": "vcs",
+            "url":  "https://github.com/sabir-ely/laravel-socialite-oidc"
         }
     ],
     "license": "MIT",
@@ -54,6 +58,7 @@
         "geocoder-php/cache-provider": "^4.3",
         "geocoder-php/nominatim-provider": "^5.5",
         "graham-campbell/markdown": "^15.0",
+        "sabir-ely/laravel-socialite-oidc": "dev-main",
         "laminas/laminas-text": "^2.9",
         "laragear/webauthn": "^3.1",
         "laravel/framework": "^11.0",

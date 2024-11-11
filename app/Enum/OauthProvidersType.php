@@ -22,4 +22,5 @@ enum OauthProvidersType: string
 	case MICROSOFT = 'microsoft';
 	case NEXTCLOUD = 'nextcloud';
 	case KEYCLOAK = 'keycloak';
+	case OIDC = 'oidc';
 }

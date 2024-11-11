@@ -13,6 +13,7 @@ use SocialiteProviders\Keycloak\KeycloakExtendSocialite;
 use SocialiteProviders\Manager\SocialiteWasCalled;
 use SocialiteProviders\Microsoft\MicrosoftExtendSocialite;
 use SocialiteProviders\Nextcloud\NextcloudExtendSocialite;
+use SocialiteProviders\OIDC\OIDCExtendSocialite;
 
 class EventServiceProvider extends ServiceProvider
 {
@@ -35,6 +36,7 @@ class EventServiceProvider extends ServiceProvider
 			MicrosoftExtendSocialite::class . '@handle',
 			NextcloudExtendSocialite::class . '@handle',
 			KeycloakExtendSocialite::class . '@handle',
+			OIDCExtendSocialite::class . '@handle',
 		],
 	];
 

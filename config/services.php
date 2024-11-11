@@ -97,4 +97,10 @@ return [
 		'base_url' => env('KEYCLOAK_BASE_URL'),
 		'realms' => env('KEYCLOAK_REALM'),
 	],
+	'oidc' => [
+		'base_url' => env('OIDC_BASE_URL'),
+		'client_id' => env('OIDC_CLIENT_ID'),
+		'client_secret' => env('OIDC_CLIENT_SECRET'),
+		'redirect' => env('OIDC_REDIRECT_URI'),
+	],
 ];
